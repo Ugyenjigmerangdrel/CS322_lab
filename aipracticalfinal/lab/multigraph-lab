@@ -1,0 +1,11 @@
+// Entity Relationship Multigraph
+digraph {
+	fable
+	Aesop
+	Apples
+	stories
+	writer
+	fable -> stories [label=are]
+	Aesop -> fable [label=writes]
+	Aesop -> writer [label="is a"]
+}

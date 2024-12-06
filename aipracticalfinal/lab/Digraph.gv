@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle]
+	Cats
+	cat
+	Mammals
+	mammals
+	All
+	Jerry
+	milk
+	animals
+	Jerry -> a [label=is]
+	Cats -> mammals [label=are]
+	Mammals -> animals [label=are]
+	animals -> mortal [label=are]
+	Cats -> four [label=have]
+	to -> milk [label=drink]
+}

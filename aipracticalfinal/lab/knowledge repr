@@ -1,0 +1,13 @@
+// Multigraph KB
+digraph {
+	writer
+	stories
+	fable
+	Aesop
+	Aesop -> fable [label=writes]
+	fable -> stories [label=are]
+	Aesop -> writer [label="is a"]
+	stories -> literature [label=are]
+	literature -> entertainment [label=provides]
+	writer -> occupation [label="is an"]
+}

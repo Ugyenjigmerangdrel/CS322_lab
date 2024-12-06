@@ -1,0 +1,15 @@
+// Reified Entity Relationship Multigraph
+digraph {
+	Jerry
+	milk
+	sofa
+	cat
+	Tom
+	Jerry -> sofa [label="was sitting on"]
+	Tom -> Jerry [label=called]
+	Jerry -> sofa [label="walked from"]
+	Jerry -> Tom [label="walked to"]
+	Tom -> milk [label=gave]
+	milk -> Jerry [label=to]
+	Jerry -> milk [label=drank]
+}

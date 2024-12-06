@@ -1,0 +1,7 @@
+digraph G {
+    "Alice";
+    "Market";
+    "Apples";
+    "Alice" -> "Market" [label="went to"];
+    "Alice" -> "Apples" [label="bought"];
+}
